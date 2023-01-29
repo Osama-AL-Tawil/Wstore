@@ -1,0 +1,100 @@
+body{
+    background:#eee;
+}
+
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:20px;
+    border-radius: 5px;
+
+}
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.card-box:hover .icon i {
+    font-size: 80px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.card-box:hover .add_icon i {
+    font-size: 80px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+.card-box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+.card-box p {
+    font-size: 15px;
+}
+.card-box .icon {
+    position: absolute;
+    top: auto;
+    bottom: 15px;
+    right: 10px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.card-box .add_icon {
+text-align: center;
+    top: auto;
+    font-size: 72px;
+    color: rgba(243, 243, 243, 0.9);
+}
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-blue {
+    background: linear-gradient(45deg,#4099ff, #9dc5ff);
+}
+.bg-add_1 {
+    background: linear-gradient(45deg, #5ea9ff, #96c8ff);
+}
+.bg-green {
+    background: linear-gradient(45deg, #00a65a, #6decae);
+}
+.bg-add_2 {
+    background: linear-gradient(45deg, #7dd5a6, #7cfcb5);
+}
+
+
+
+
+.bg-orange {
+    background: linear-gradient(45deg, #00a65a, #9be5c2);
+}
+.bg-red {
+    background-color: #d9534f !important;
+}
+
+
+
